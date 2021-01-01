@@ -4,24 +4,23 @@
     <projectFile>API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1adf0c4-c694-458e-91b3-5e103a89d56c" name="Default Changelist" comment="" />
+    <list default="true" id="e1adf0c4-c694-458e-91b3-5e103a89d56c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DatingApp/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/API/WeatherForecast.cs" />
-        <option value="$PROJECT_DIR$/API/Data/DataContext.cs" />
-        <option value="$PROJECT_DIR$/API/appsettings.Development.json" />
-        <option value="$PROJECT_DIR$/API/Startup.cs" />
-        <option value="$PROJECT_DIR$/API/Data/Migrations/20201101082928_InitialCreate.cs" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ij1OXhUnfRurulzE8kug4PDzNW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +32,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.API">
+  <component name="RunManager" selected=".NET Launch Settings Profile.API: IIS Express">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v5.0" />
@@ -82,6 +81,8 @@
       <workItem from="1604216907381" duration="3029000" />
       <workItem from="1605025081291" duration="178000" />
       <workItem from="1605877153406" duration="9000" />
+      <workItem from="1609509874106" duration="57000" />
+      <workItem from="1609510016272" duration="340000" />
     </task>
     <servers />
   </component>
@@ -90,6 +91,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
