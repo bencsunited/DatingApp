@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Download\Project\DatingApp" t="IncludeFlat">
+    <e p="C:\Download\DatingApp" t="IncludeFlat">
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="BaseApiController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
           <e p="WeatherForecastController.cs" t="Include" />
         </e>
@@ -16,12 +18,28 @@
           <e p="Migrations" t="Include">
             <e p="20201218082114_InitialCreate.cs" t="Include" />
             <e p="20201218082114_InitialCreate.Designer.cs" t="Include" />
+            <e p="20210102053303_UserPasswordAdded.cs" t="Include" />
+            <e p="20210102053303_UserPasswordAdded.Designer.cs" t="Include" />
             <e p="DataContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
         <e p="datingapp.db" t="Include" />
+        <e p="datingapp.db-shm" t="Include" />
+        <e p="datingapp.db-wal" t="Include" />
+        <e p="DTOs" t="Include">
+          <e p="LoginDto.cs" t="Include" />
+          <e p="RegisterDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+        </e>
         <e p="Entities" t="Include">
           <e p="AppUser.cs" t="Include" />
+        </e>
+        <e p="Exensions" t="Include">
+          <e p="ApplicationServiceExtensions.cs" t="Include" />
+          <e p="IdentityServiceExtensions.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="ITokenService.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -34,6 +52,9 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Services" t="Include">
+          <e p="TokenService.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
@@ -41,6 +62,6 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\chaiy\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\chaiy\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_DatingApp.-452246126.00" t="ExcludeRecursive" />
+    <e p="C:\Users\chaiy\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_DatingApp.337165141.00" t="ExcludeRecursive" />
   </component>
 </project>
